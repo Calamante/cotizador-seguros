@@ -1,16 +1,58 @@
-# React + Vite
+Cotizador de Seguros para el Hogar (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un cotizador de seguros de hogar totalmente funcional desarrollado con React y estilizado con Bootstrap 5. Permite a los usuarios ingresar datos de su propiedad, seleccionar coberturas y obtener un cálculo de costo anual en tiempo real.
 
-Currently, two official plugins are available:
+ Características Principales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Formulario Multi-Paso: Proceso de cotización guiado en 3 pasos (Datos, Riesgos, Coberturas).
 
-## React Compiler
+*Cálculo en Tiempo Real: Algoritmo que calcula el costo anual basado en M² y factores de riesgo (Ubicación, Tipo de Propiedad, Antigüedad).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*Gestión de Pólizas: Permite guardar cotizaciones, y cambiar el estado a "Contratada" o "Cancelada".
 
-## Expanding the ESLint configuration
+*Persistencia Local: Utiliza el localStorage del navegador para guardar y recuperar cotizaciones previamente generadas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Diseño Responsivo: Estilizado con Bootstrap para una visualización óptima en dispositivos móviles y de escritorio.
+
+ Tecnologías Utilizadas
+
+ * React (usando Hooks como useState, useEffect, useCallback).
+
+ *Vite
+
+*Estilos: Bootstrap 5 (a través de CDN)
+
+*Iconografía: Lucide React
+
+
+ ----Instalación y Ejecución-----
+
+Sigue estos pasos para obtener una copia local del proyecto y ponerlo en marcha.
+
+Requisitos
+
+Node.js (versión LTS recomendada)
+
+npm (incluido con Node.js)
+
+Pasos
+
+Clona el Repositorio:
+
+git clone [TU-URL-DE-GITHUB]/cotizador-seguros.git
+cd cotizador-seguros
+
+
+Instala las Dependencias:
+
+npm install
+
+
+Instala Librerías Adicionales (Iconos):
+
+npm install lucide-react
+
+
+Ejecuta la Aplicación en Modo Desarrollo:
+
+npm run dev
