@@ -40,7 +40,7 @@ Pasos
 Clona el Repositorio:
 
 git clone https://github.com/Calamante/cotizador-seguros.git
-cd cotizador-seguros
+
 
 
 Instala las Dependencias:
