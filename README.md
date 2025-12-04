@@ -39,7 +39,7 @@ Pasos
 
 Clona el Repositorio:
 
-git clone [TU-URL-DE-GITHUB]/cotizador-seguros.git
+git clone https://github.com/Calamante/cotizador-seguros.git
 cd cotizador-seguros
 
 
